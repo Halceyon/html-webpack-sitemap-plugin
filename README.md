@@ -1,6 +1,6 @@
 # html-webpack-sitemap-plugin
 
-[![NPM](https://nodei.co/npm/html-webpack-sitemap-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/html-webpack-plugin/)
+[![NPM](https://nodei.co/npm/html-webpack-sitemap-plugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/html-webpack-sitemap-plugin/)
 
 Installation
 ------------
