@@ -1,5 +1,5 @@
 {
-  "name": "html-webpack-sitemap-plugin-alt",
+  "name": "html-webpack-sitemap-plugin",
   "version": "0.1.0",
   "description": "a simple sitemap.xml generator based on html-webpack-plugin",
   "main": "index.js",
