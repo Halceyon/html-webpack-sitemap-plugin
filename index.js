@@ -51,12 +51,7 @@ HtmlWebpackSitemapPlugin.prototype.apply = function(compiler) {
     compilation.plugin('html-webpack-plugin-after-emit', function(data, cb) {
       var output = Mustache.render(tpl, {
         urls: Object.keys(compilation.assets).filter(self.options.filterAssets).concat(self.options.urls).map(function(asset) {
-          return {
-            loc: self.options.loc(self.base, asset),
-            priority: self.options.priority(asset),
-            lastmod: self.options.lastmod(asset),
-            changefreq: self.options.changefreq(asset)
-          };
+          return asset;
         })
       });
       compilation.assets[self.filename] = {
